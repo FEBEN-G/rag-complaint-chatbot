@@ -15,3 +15,9 @@ python-dotenv
 pyarrow
 fastparquet
 gdown
+
+# Testing and Development
+pytest
+pytest-cov
+black
+flake8
