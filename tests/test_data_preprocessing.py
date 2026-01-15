@@ -110,7 +110,7 @@ class TestPrepareComplaintsData:
         """Test that narratives are cleaned."""
         df = pd.DataFrame({
             'Product': ['Credit card'],
-            'Consumer complaint narrative': ['I AM WRITING TO FILE A COMPLAINT']
+            'Consumer complaint narrative': ['I AM WRITING TO FILE A COMPLAINT regarding a late fee.']
         })
         result = prepare_complaints_data(df, clean_narratives=True)
         assert 'cleaned_narrative' in result.columns

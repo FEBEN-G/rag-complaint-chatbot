@@ -4,7 +4,7 @@ Text chunking and embedding utilities.
 import numpy as np
 import pandas as pd
 from typing import List, Dict
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from sentence_transformers import SentenceTransformer
 from tqdm import tqdm
 

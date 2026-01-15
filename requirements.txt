@@ -5,6 +5,7 @@ seaborn
 scikit-learn
 nltk
 langchain
+langchain-text-splitters
 sentence-transformers
 chromadb
 faiss-cpu
