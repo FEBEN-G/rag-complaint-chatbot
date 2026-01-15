@@ -1,0 +1,17 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+nltk
+langchain
+sentence-transformers
+chromadb
+faiss-cpu
+gradio
+streamlit
+huggingface_hub
+python-dotenv
+pyarrow
+fastparquet
+gdown
